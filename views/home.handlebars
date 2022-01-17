@@ -25,35 +25,42 @@
         <div class="profile-page">
             <div class="wrapper">
                 <div class="page-header page-header-small" filter-color="green">
-                <div class="page-header-image" data-parallax="true" style="background-image: url('/assets/images/star2.jpg');"></div>
-                <div class="container">
-                    <div class="content-center">
-                    <div class="cc-profile-image"><a href="#"><img src="/assets/images/sam.jpg" alt="Image"/></a></div>
-                    <div class="h2 title">Samuel Abu</div>
-                    <p class="category text-white">Full Stack Web Developer</p><a class="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Hire Me</a><a download class="btn btn-primary" target="_blank" href="images/SamAbu_CV.pdf" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Download CV</a>
-                    </div>
-                </div>
-                <div class="section">
+                    <div class="page-header-image" data-parallax="true" style="background-image: url('/assets/images/star2.jpg');"></div>
                     <div class="container">
-                    <div class="button-container"><a class="btn btn-default btn-round btn-lg btn-icon" target="_blank" href="https://www.twitter.com/reachmhp" rel="tooltip" title="Follow me on Twitter"><i class="fa fa-twitter"></i></a><a class="btn btn-default btn-round btn-lg btn-icon" target="_blank" href="https://www.linkedin.com/in/abu-samuel" rel="tooltip" title="Connect with me on LinkedIn"><i class="fa fa-linkedin"></i></a><a class="btn btn-default btn-round btn-lg btn-icon" target="_blank" href="https://www.instagram.com/mhp_samuel" rel="tooltip" title="Follow me on Instagram"><i class="fa fa-instagram"></i></a></div>
+                        <div class="content-center">
+                            <div class="cc-profile-image"><a href="#"><img src="/assets/images/sam.jpg" alt="Image"/></a></div>
+                            <div class="h2 title">Samuel Abu</div>
+                            <p class="category text-white">Full Stack Web Developer</p>
+                            <a class="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Hire Me</a>
+                            <a download class="btn btn-primary" target="_blank" href="/assets/images/SamAbu_CV.pdf" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Download CV</a>
+                        </div>
                     </div>
-                </div>
+                    <div class="section">
+                        <div class="container">
+                            <div class="button-container">
+                                <a class="btn btn-default btn-round btn-lg btn-icon" target="_blank" href="https://www.twitter.com/reachmhp" rel="tooltip" title="Follow me on Twitter"><i class="fa fa-twitter"></i></a>
+                                <a class="btn btn-default btn-round btn-lg btn-icon" target="_blank" href="https://www.linkedin.com/in/abu-samuel" rel="tooltip" title="Connect with me on LinkedIn"><i class="fa fa-linkedin"></i></a>
+                                <a class="btn btn-default btn-round btn-lg btn-icon" target="_blank" href="https://www.instagram.com/mhp_samuel" rel="tooltip" title="Follow me on Instagram"><i class="fa fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
 
-<!-- -->
+<!-- About and Basic Information section -->
 <div class="section" id="about">
     <div class="container">
         <div class="card" data-aos="fade-up" data-aos-offset="10">
             <div class="row">
                 <div class="col-lg-6 col-md-12">
                     <div class="card-body">
-                        <div class="h4 mt-0 title">About</div>
+                        <h4 class="h4 mt-0 title">About</h4>
                         <p>Hello! I am Samuel Abu. I am a Computer Science graduate from the University of the Western Cape, South Africa. </p>
-                        <p>I am a creative at heart. I enjoy problem solving. I play Sudoku when I am bored.</p>
+                        <p>I am a creative at heart. I enjoy problem solving and I play Sudoku when I am bored.</p>
+                        <p>I enjoy learning new things and recently started learning French.</p>
                         <!--p>In 1999, after watching the film "The Matrix" I knew that I wanted to become a programmer. I got the opportunity to study Computer Science in 2013. I took the opportunity with hands and feet. I have written working programs in Java, C, Perl and Python. I have also done some HTML/CSS and can use the Bootstrap framework to create websites.</p><p>I am currently working on a Cyber Security Awareness project with CSIR.<a target="_blank" href="http://www.cs.uwc.ac.za/~sabu"> Snooping IoT devices with Raspberry Pi.</a> Wish me luck!</p-->
                     </div>
                 </div>
@@ -86,4 +93,11 @@
             </div>
         </div>
     </div>
+
+
+    <!-- Professional Skills -->
+    {{> skills}}
+
+    <!-- Projects -->
+    {{> projects}}
 </div>
